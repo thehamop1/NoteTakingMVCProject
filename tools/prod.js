@@ -11,9 +11,9 @@ app.get('*', function (request, response) {
   response.sendFile(path.resolve(__dirname, '../.tmp/public/index.html'));
 });
 
-app.use('/api/*', proxy('localhost:1337', {
+app.use('/api/*', proxy('https://notetakingapp-csun.herokuapp.com/', {
     forwardPath: function (req, res) {
-      return '/api/' + req.url
+      return req.baseUrl;
     }
 }));
 

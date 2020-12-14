@@ -48,3 +48,7 @@ Files Explanation:
 	- Server Side:
 		Youll find the sailsjs config inside of config and youll find the controllers and models inside of api. The controllers are made by adding 
 		js files in api/controllers/api. Models are similar.
+
+Additional Note:
+	- You'll notice one extra commit here and thats due to heroku changes (You cant choose your own ports so i had to branch my code in order to deploy to seperate branches)
+	the extra commit is just to show you the right address i proxy to."
