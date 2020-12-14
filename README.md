@@ -50,5 +50,5 @@ Files Explanation:
 		js files in api/controllers/api. Models are similar.
 
 Additional Note:
-	- You'll notice one extra commit here and thats due to heroku changes (You cant choose your own ports so i had to branch my code in order to deploy to seperate branches)
+	- You'll notice one extra commit here and thats due to heroku changes (You cant choose your own ports so i had to branch my code in order to deploy to seperate machines)
 	the extra commit is just to show you the right address i proxy to."
