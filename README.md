@@ -42,9 +42,9 @@ Overview:
 
 
 Files Explanation:
-	Client Side:
+	- Client Side:
 		There were a lot of changes i had to make for deployment. Youll find the react app inside of client and youll find tools/prod.js
 		as the server that serves the bundle.js created from webpack. 
-	Server Side:
+	- Server Side:
 		Youll find the sailsjs config inside of config and youll find the controllers and models inside of api. The controllers are made by adding 
 		js files in api/controllers/api. Models are similar.
